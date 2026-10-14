@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-partnercentral-channel`](https://www.npmjs.com/package/@aws-sdk/client-partnercentral-channel/v/3.1151.0).
+[`@aws-sdk/client-partnercentral-channel`](https://www.npmjs.com/package/@aws-sdk/client-partnercentral-channel/v/3.1152.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-partnercentral-channel - [https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-channel](https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-channel)
-- @aws-sdk/client-partnercentral-channel v3.1151.0 - [https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-channel&version=3.1151.0](https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-channel&version=3.1151.0)
+- @aws-sdk/client-partnercentral-channel v3.1152.0 - [https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-channel&version=3.1152.0](https://cloud-sdk-builds.github.io/?sdk=client-partnercentral-channel&version=3.1152.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1151.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1152.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-l5DBnmppGRNsOo5st7q5570ckoUgIE6TK4VCRN8TYnbZnfyrwGzlh+fWJman17sk
+sha384-GkY+S5wYlTT0FwybzNLNFxBc+ODFbAVoswEq6P4IQHl21ZzB+RIYMMDDl/RQdAfW
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-partnercentral-channel": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1151.0/index.min.mjs"
+            "@aws-sdk/client-partnercentral-channel": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1152.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1151.0/index.min.mjs": "sha384-l5DBnmppGRNsOo5st7q5570ckoUgIE6TK4VCRN8TYnbZnfyrwGzlh+fWJman17sk"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1152.0/index.min.mjs": "sha384-GkY+S5wYlTT0FwybzNLNFxBc+ODFbAVoswEq6P4IQHl21ZzB+RIYMMDDl/RQdAfW"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-partnercentral-channel": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1151.0/index.min.mjs"
+                        "@aws-sdk/client-partnercentral-channel": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1152.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1151.0/index.min.mjs": "sha384-l5DBnmppGRNsOo5st7q5570ckoUgIE6TK4VCRN8TYnbZnfyrwGzlh+fWJman17sk"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-channel@3.1152.0/index.min.mjs": "sha384-GkY+S5wYlTT0FwybzNLNFxBc+ODFbAVoswEq6P4IQHl21ZzB+RIYMMDDl/RQdAfW"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1151.0`)
+* Always pin to a specific version (`@3.1152.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-partnercentral-channel/blob/refs/tags/3.1151.0/LICENSE
+https://github.com/cloud-sdk-builds/client-partnercentral-channel/blob/refs/tags/3.1152.0/LICENSE
 ```
 
 ---
